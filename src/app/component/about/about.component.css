@@ -1,0 +1,32 @@
+.background-about ul li{
+    margin-bottom: 10px;
+
+}
+
+
+/*responsive code*/
+/*mobile phone*/
+@media (max-width: 575px) {
+    ul{
+        font-size: 15px !important;
+    }
+    .img-mobile-highschool{
+        width: 100% !important;
+    }
+}
+
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+} 
+
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+} 
+
+/*laptop*/
+@media (min-width: 1200px)  {
+    
+}

@@ -1,0 +1,10 @@
+img{
+    height: 400px;
+    object-fit: cover;
+}
+.thumbnail-container button{
+    transition: 0.4s;
+}
+.thumbnail-container:hover button{
+    right: 0px;
+}

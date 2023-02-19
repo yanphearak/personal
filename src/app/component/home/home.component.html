@@ -1,0 +1,50 @@
+
+<main style=" height: 100vh;" class="for-big grid grid-cols-3">
+  <div class="flex items-center">
+    <div class="pl-5">
+      <div>
+        <span id="demo" class="text-4xl text-sky-900 font-bold name-home-kh">{{name}}</span>
+      </div>
+      <div class="mt-5 text-base">
+        Hello I'm <b>Phearak</b>, another IT guy on the Earth planet.😁
+      </div>
+      <div  class="block my-8">
+        <button routerLink="about" type="button" class="about-home text-dark border border-sky-800  focus:outline-none focus:ring-4 focus:ring-blue-300  font-medium rounded-md text-xs px-4 py-2 text-center mr-2 mb-2 ">About Me &nbsp;<i class="bi bi-arrow-right"></i></button>
+      </div>
+
+      <div class="text-base">
+        My Social
+      </div>
+      <div class="mt-3">
+        <ul class="flex items-center">
+          <li><a href="https://t.me/yanphearak" class="block px-1.5 pl-0"><i class="text-3xl bi bi-telegram" style="color: #2fade1" ></i></a></li>
+          <li><a href="https://web.facebook.com/yan.phearak.14/" class="text-3xl block px-1.5"><i style="color: #1178f2" class="bi bi-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/rak_sweet_kristy/" class="text-3xl block px-1.5"><i style="color: #913ab4;" class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/yan-phearak-57b5a124b" class="text-3xl block px-1.5"><i style="color: #0a66c2" class="bi bi-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-span-2">
+    <img src="../../../assets/images/me1.jpg" style="clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);" class="w-full h-full object-cover"  alt="">
+  </div>
+</main>
+
+<main class="mobile-mobile hidden" style="height: 100vh; overflow: hidden; position: relative;">
+    <div>
+        <img src="../../../assets/images/me1.jpg" class="brightness-50 w-full "  alt="">
+    </div>
+    <div class="text-center absolute text-white" style=" top: 50%; left: 50%; transform: translate(-50%,-50%);">
+        <div class="text-5xl mb-2" data-aos="fade-down">
+            Yan Phearak | <span class="name-home-kh">យ៉ាន់ ភារក្ស</span>
+        </div>
+        <div class="mobile" data-aos="fade-down">
+            Yan Phearak  <br>
+            <span class="name-home-kh">យ៉ាន់ ភារក្ស</span>
+        </div>
+        <p class="text-base" data-aos="fade-down">Another IT guy on the Earth planet.😁</p> <br> <br>
+        <a routerLink="about">
+            <button type="button" class="about-home text-white bg-sky-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center mr-2 mb-2 shadow-lg">About Me &nbsp;<i class="bi bi-arrow-right"></i></button>
+        </a>
+    </div>
+</main>

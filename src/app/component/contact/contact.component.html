@@ -1,0 +1,87 @@
+<main class="main-main mb-20">
+    <div class="max-w-8xl mx-auto">
+        <section>
+            <h1 data-aos="fade-down" class="text-center" style="font-size: 30px;"><b>CONTACT</b></h1>
+            <div data-aos="fade-down" class="border-b border-2 my-7 mx-auto border-sky-700" style="width: 80px;"></div>
+        </section>
+
+        <section>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-8">
+                <div class="px-3 lg:px-0">
+                    <span class="name-home-kh text-lg">ទំនាក់ទំនងមកខ្ញុំ</span>
+                    <ul class="mt-10">
+                        <li>
+                            <a href="https://t.me/yanphearak" class="block bg-white p-2.5 flex items-center mb-3"><i class="text-2xl bi bi-telegram" style="color: #29a9eb;"></i> &nbsp; Telegram</a>
+                        </li>
+                        <li>
+                            <a href="https://web.facebook.com/yan.phearak.14/" class="block bg-white p-2.5 flex items-center mb-3"><i class="bi text-2xl bi-facebook" style="color: #0e8ef1;"></i> &nbsp; Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/rak_sweet_kristy/" class="block bg-white p-2.5 flex items-center mb-3"><i class="bi text-2xl bi-instagram" style="color: #8a3ab9"></i> &nbsp; Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/yan-phearak-57b5a124b" class="block bg-white p-2.5 flex items-center mb-3"><i class="bi text-2xl bi-linkedin" style="color: #0a66c2"></i> &nbsp; Facebook</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-span-2 px-3 lg:px-0 mt-5 lg:mt-5=0">
+                    <form [formGroup]="form" (submit)="submit()" autocomplete="off">
+                        <span class="name-home-kh text-lg mb-5 block">មតិយោបល់ផ្សេងៗ</span>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <label for="" class="name-home-kh block mt-2">ឈ្មោះ</label>
+                                <input value="" formControlName="name" type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                            </div>
+                            <div>
+                                <label for="" class="name-home-kh block mt-2">Email</label>
+                                <input value="" formControlName="email" type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div>
+                                <label for="" class="name-home-kh block mt-2">លេខទូរសព្ទ័</label>
+                                <input value="" formControlName="number" type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                            </div>
+                            <div>
+                                <label for="" class="name-home-kh block mt-2">អាស័យដ្ខាន</label>
+                                <input value="" formControlName="address" type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="" class="name-home-kh block mt-2">មតិយោបល់</label>
+                            <textarea value="" formControlName="des" id="about" name="about" rows="3" class="p-3 py-4 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"></textarea>
+                        </div>
+                        <div class="text-right mt-5">
+                            <button type="submit" class="about-home text-white bg-sky-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-md text-sm px-5 py-2.5 text-center mr-2 mb-2 shadow-lg">Send <i class="bi bi-box-arrow-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <div *ngIf="isNotify" id="toast-bottom-right" class="fixed right-10 bottom-10" role="alert">
+          <div id="toast-notification" class="w-full max-w-xs p-4 text-gray-900 bg-white rounded-lg shadow dark:bg-gray-800 dark:text-gray-300" role="alert">
+            <div class="flex items-center">
+                <div class="relative inline-block shrink-0">
+                    <img class="w-12 h-12 rounded-full object-cover" src="../../../assets/images/profile1.jpg" alt="Jese Leos image"/>
+                    <span class="absolute bottom-0 right-0 inline-flex items-center justify-center w-6 h-6 bg-blue-600 rounded-full">
+                        <svg aria-hidden="true" class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
+                        <span class="sr-only">Message icon</span>
+                    </span>
+                </div>
+                <div class="ml-3 text-sm font-normal">
+                    <div class="text-sm font-semibold text-gray-900 dark:text-white">Yan Phearak</div>
+                    <div class="text-sm font-normal name-home-kh">អត់បាន connect ទៅ Api ទេ​ XD, contact តាមfacebookសិន​ក៍បាន😛</div>
+                    <span class="text-xs font-medium text-blue-600 dark:text-blue-500">a few seconds ago</span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+</main>

@@ -1,0 +1,78 @@
+*{
+    font-family: 'Exo 2' !important;
+    margin: 0px;
+}
+body{
+    background-color: #f2f3f8;
+}
+nav ul li a{
+    color: rgb(100 116 139);;
+}
+nav ul li a:hover{
+    color: #34b7a7;
+}
+.name-home-kh{
+    font-family: 'Kantumruy Pro' !important;
+}
+.main-main{
+    margin-top: 110px !important;
+}
+.img-home-home{
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.active-link{
+    background-color: rgb(29, 78, 216) !important;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+/*responsive code*/
+/*mobile phone*/
+@media (max-width: 575px) {
+    .mobile{
+        display: block !important;
+    }
+    .img-home-home{
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .background-review-mobile{
+        margin-top: 40px !important;
+    }
+    .mobile-about{
+        padding: 0px 20px;
+    }
+}
+
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+} 
+
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+} 
+
+/*laptop*/
+@media (min-width: 1200px)  {
+    
+}

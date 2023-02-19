@@ -1,0 +1,7 @@
+.active-navbar{
+  border-bottom: 4px solid rgb(160, 59, 160);
+  color: rgb(160, 59, 160);
+}
+.navbar-pc a:hover{
+  color: rgb(160, 59, 160) !important;
+}

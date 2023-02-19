@@ -1,0 +1,53 @@
+.name-home{
+    font-size: 43px !important;
+}
+.about-home:hover i{
+    margin-left: 10px !important;
+}
+.about-home i{
+    transition: 0.2s;
+}
+.mobile{
+    font-size: 30px;
+    line-height: 37px;
+    display: none !important;
+    margin-bottom: 20px;
+}
+
+
+/*responsive code*/
+/*mobile phone*/
+@media (max-width: 575px) {
+    .mobile-mobile{
+      display: block;
+    }
+    .for-big{
+      display: none !important;
+    }
+    .mobile-mobile img{
+        height: 100vh !important;
+        object-fit: cover;
+    }
+    .mobile-mobile .mobile{
+        display: block !important;
+    }
+    .mobile-mobile .text-5xl{
+        display: none !important;
+    }
+
+}
+
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*laptop*/
+@media (min-width: 1200px)  {
+}
