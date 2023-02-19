@@ -10,6 +10,10 @@ export class ApiService{
     private _service: HttpClient
   ){}
 
+  home(){
+    return this._service.get(this.url+`/home`);
+  }
+
   sendNotification(){
     return this._service.get(this.url+`/sendNotifi`);
   }

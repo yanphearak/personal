@@ -17,6 +17,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ProjectComponent } from './component/project/project.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatProgressBarModule,
     MatStepperModule,
     MatButtonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
