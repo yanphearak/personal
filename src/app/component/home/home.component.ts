@@ -14,8 +14,8 @@ export class HomeComponent implements OnInit {
   }
 
   i = 0;
-  txt = 'Phearak | យ៉ាន់ ភារក្ស'; /* The text */
-  speed = 300; /* The speed/duration of the effect in milliseconds */
+  txt = 'Phearak  |  យ៉ាន់ ភារក្ស'; /* The text */
+  speed = 200; /* The speed/duration of the effect in milliseconds */
   name = "";
 
   typeWriter() {
