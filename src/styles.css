@@ -27,22 +27,22 @@ nav ul li a:hover{
 
 /* width */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 0px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+    background: #f1f1f1;
   }
-   
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #888; 
+    background: #888;
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
   }
 /*responsive code*/
 /*mobile phone*/
@@ -64,15 +64,15 @@ nav ul li a:hover{
 
 /*ipad*/
 @media (min-width: 768px) and (max-width: 991px) {
-    
-} 
+
+}
 
 /*ipad pro*/
 @media (min-width: 992px) and (max-width: 1199px) {
-    
-} 
+
+}
 
 /*laptop*/
 @media (min-width: 1200px)  {
-    
+
 }

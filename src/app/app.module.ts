@@ -10,7 +10,6 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatStepperModule } from '@angular/material/stepper';
 import { ResumesComponent } from './component/resumes/resumes.component';
-import { BlogsComponent } from './component/blogs/blogs.component';
 import { DetailComponent } from './component/detail/detail.component';
 import { MatButtonModule } from '@angular/material/button';
 import { FooterComponent } from './component/footer/footer.component';
@@ -25,7 +24,6 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     NavbarComponent,
     ResumesComponent,
-    BlogsComponent,
     DetailComponent,
     FooterComponent,
     ProjectComponent,
